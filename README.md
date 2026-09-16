@@ -24,6 +24,6 @@ To practice DSA consistently, improve problem-solving skills, and prepare for co
 
 C++
 
-🔗 Platform
+## 🔗 Platform
 
-GeeksforGeeks
+[GeeksforGeeks](https://www.geeksforgeeks.org/)
