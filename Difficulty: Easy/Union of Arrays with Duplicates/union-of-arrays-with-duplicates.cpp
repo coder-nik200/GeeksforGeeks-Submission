@@ -1,6 +1,7 @@
 class Solution {
 	public:
 	vector<int> findUnion(vector<int>& a, vector<int>& b) {
+	   // sort a vector
 		sort(a.begin(), a.end());
 		sort(b.begin(), b.end());
 		
