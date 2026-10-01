@@ -7,6 +7,7 @@ class Solution {
 		vector<int>row (n, 0);
 		vector<int>col (m, 0);
 		
+		// Find all rows and columns containing 0
 		for (int i = 0; i<n; i++) {
 			for (int j = 0; j<m; j++) {
 				if (mat[i][j] == 0) {
@@ -16,6 +17,7 @@ class Solution {
 			}
 		}
 		
+		// Set marked rows and columns to 0
 		for (int i = 0; i<n; i++) {
 			for (int j = 0; j<m; j++) {
 				if (row[i] || col[j] == 1) {
