@@ -1,6 +1,8 @@
 class Solution {
 	public:
 	void sort012(vector<int>& arr) {
+		// The Dutch National Flag algorithm
+		
 		int st = 0;
 		int mid = 0;
 		int end = arr.size() - 1;
