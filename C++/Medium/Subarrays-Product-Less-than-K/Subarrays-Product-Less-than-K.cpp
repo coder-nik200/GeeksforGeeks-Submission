@@ -4,9 +4,7 @@ class Solution {
 		int n = arr.size();
 		
 		if (k <= 1) {
-			
 			return 0;
-			
 		}
 		
 		int low = 0;
