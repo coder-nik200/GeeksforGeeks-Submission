@@ -13,10 +13,10 @@ class Node {
 class Solution {
 	public:
 	int getMiddle(Node* head) {
-		Node *slow = head;
-		Node *fast = head;
+		Node * slow = head;
+		Node * fast = head;
 		
-		while (fast != nullptr && fast->next != nullptr) {
+		while (fast != NULL && fast->next != NULL) {
 			slow = slow->next;
 			fast = fast->next->next;
 		}
