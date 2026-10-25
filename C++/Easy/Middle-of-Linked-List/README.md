@@ -57,6 +57,6 @@ The given linked list is 2->4->6->7->5->1 so, there are two middle node 6 and 7,
 
 ### 🚀 GFG GitHub Sync
 
-<sub>Automatically synced from GeeksforGeeks • Last updated: 2026-10-21</sub>
+<sub>Automatically synced from GeeksforGeeks • Last updated: 2026-10-25</sub>
 
 </div>
