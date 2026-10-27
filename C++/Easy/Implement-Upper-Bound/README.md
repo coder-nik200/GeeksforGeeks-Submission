@@ -16,9 +16,9 @@
 ## 📝 Problem Statement
 
 > Given a sorted array arr[] and a number target, the task is to find the upper bound of the target in this given array.
-> The upper bound of a number is defined as the smallest index in the sorted array where the element is greater than the given number.
 > 
-> Note: If all the elements in the given array are smaller than or equal to the target, the upper bound will be the length of the array.
+> The upper bound is the smallest index in the sorted array where the element is greater than the given target.
+> If all the elements in the given array are smaller than or equal to the target, the upper bound will be the length of the array.
 
 
 ## 📚 Examples
@@ -60,11 +60,6 @@
 **Explanation:**
 As no element in arr[] is greater than 100, return the length of array.
 
-Constraints:
-1 ≤ arr.size() ≤ 106
-1 ≤ arr[i] ≤ 106
-1 ≤ target ≤ 106
-
 </details>
 
 
@@ -74,6 +69,6 @@ Constraints:
 
 ### 🚀 GFG GitHub Sync
 
-<sub>Automatically synced from GeeksforGeeks • Last updated: 2026-09-29</sub>
+<sub>Automatically synced from GeeksforGeeks • Last updated: 2026-10-27</sub>
 
 </div>
