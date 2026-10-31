@@ -66,6 +66,6 @@ After reversing the linked list
 
 ### 🚀 GFG GitHub Sync
 
-<sub>Automatically synced from GeeksforGeeks • Last updated: 2026-10-21</sub>
+<sub>Automatically synced from GeeksforGeeks • Last updated: 2026-10-31</sub>
 
 </div>
