@@ -14,16 +14,30 @@ class Node {
 class Solution {
 	public:
 	Node* reverseList(Node* head) {
-		Node *prev = nullptr;
-		Node *curr = head;
-		Node *next = nullptr;
+		// 		Node *prev = nullptr;
+		// 		Node *curr = head;
+		// 		Node *next = nullptr;
 		
-		while (curr != nullptr) {
-			next = curr->next;
-			curr->next = prev;
+		// 		while (curr != nullptr) {
+		// 			next = curr->next;
+		// 			curr->next = prev;
+		
+		// 			prev = curr;
+		// 			curr = next;
+		// 		}
+		
+		// 		return prev;
+		
+		// Simple Approach
+		Node* temp = head;
+		Node* prev = nullptr;
+		
+		while (temp != nullptr) {
+			Node* front = temp->next;
+			temp->next = prev;
 			
-			prev = curr;
-			curr = next;
+			prev = temp;
+			temp = front;
 		}
 		
 		return prev;
