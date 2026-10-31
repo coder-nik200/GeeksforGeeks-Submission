@@ -13,6 +13,10 @@ class Node {
 class Solution {
 	public:
 	Node* segregate(Node* head) {
+		if (head == nullptr || head->next == nullptr) {
+			return head;
+		}
+		
 		Node* zeroHead = nullptr;
 		Node* zeroTail = nullptr;
 		
