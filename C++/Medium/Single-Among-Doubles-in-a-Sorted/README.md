@@ -40,6 +40,6 @@
 
 ### 🚀 GFG GitHub Sync
 
-<sub>Automatically synced from GeeksforGeeks • Last updated: 2026-09-29</sub>
+<sub>Automatically synced from GeeksforGeeks • Last updated: 2026-11-10</sub>
 
 </div>
