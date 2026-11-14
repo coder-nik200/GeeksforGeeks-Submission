@@ -66,6 +66,6 @@ The merged array is [2, 4, 5, 6]. So the median of the merged array is (4 + 5) /
 
 ### 🚀 GFG GitHub Sync
 
-<sub>Automatically synced from GeeksforGeeks • Last updated: 2026-11-13</sub>
+<sub>Automatically synced from GeeksforGeeks • Last updated: 2026-11-14</sub>
 
 </div>
