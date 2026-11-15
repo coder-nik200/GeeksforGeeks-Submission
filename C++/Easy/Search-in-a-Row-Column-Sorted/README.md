@@ -15,7 +15,7 @@
 
 ## 📝 Problem Statement
 
-> Given a 2D integer matrix mat[][] of size n x m, where every row and column is sorted in increasing order and a number x, return true if the element x is present in the matrix. Otherwise, return false.
+> Given a 2D integer matrix mat[][], where every row and column is sorted in increasing order and a number x, return true if the element x is present in the matrix. Otherwise, return false.
 
 
 ## 📚 Examples
@@ -66,6 +66,6 @@
 
 ### 🚀 GFG GitHub Sync
 
-<sub>Automatically synced from GeeksforGeeks • Last updated: 2026-10-03</sub>
+<sub>Automatically synced from GeeksforGeeks • Last updated: 2026-11-15</sub>
 
 </div>
