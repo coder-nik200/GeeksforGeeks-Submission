@@ -4,18 +4,16 @@ class Solution {
 		int n = arr.size();
 		int m = arr[0].size();
 		
-		int i = 0;
-		int j = m - 1;
+		int row = 0;
+		int col = m - 1;
 		
-		while (i < n && j >= 0) {
-			if (arr[i][j] == x) {
+		while (row < n && col >= 0) {
+			if (arr[row][col] == x) {
 				return true;
-			}
-			else if (arr[i][j] > x) {
-				j--;
-			}
-			else {
-				i++;
+			} else if (arr[row][col] > x) {
+				col--;
+			} else {
+				row++;
 			}
 		}
 		
