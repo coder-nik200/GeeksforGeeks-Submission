@@ -1,5 +1,6 @@
 class Solution {
 	public:
+	// 	Brute force
 	vector<int> merge(vector<vector<int>> & mat, int n, int m) {
 		vector<int> ans;
 		
@@ -18,15 +19,6 @@ class Solution {
 		int m = mat[0].size();
 		
 		vector<int> mergedArr = merge(mat, n, m);
-		int totalArray = mergedArr.size();
-		
-		if (totalArray % 2 == 1) {
-			return mergedArr[totalArray / 2];
-		} else {
-			int mid1 = mergedArr[totalArray / 2];
-			int mid2 = mergedArr[totalArray / 2 - 1];
-			
-			return (mid1 + mid2) / 2.0;
-		}
+		return mergedArr[(n * m) / 2];
 	}
 };
